@@ -85,9 +85,11 @@
   padding-bottom: 100%;
   position: relative;
   background-color: white;
+  opacity: 0.7;
 }
 
 .cell_active {
+  opacity: 1;
   cursor: pointer;
 }
 
