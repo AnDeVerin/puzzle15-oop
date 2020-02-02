@@ -14,3 +14,6 @@ rules:
     - code: 100
   require-jsdoc:
     - off
+  indent:
+    - error
+    - 4
