@@ -26,7 +26,7 @@
                 </ol>
 
             </details>
-            <p class="statistics__name">Player: Andrey</p>
+            <p class="statistics__name">Name: Player</p>
             <p class="statistics__timer">Time: 0:00</p>
         </section>
 
@@ -37,6 +37,31 @@
             <div class="game__controls">
                 <button class="button button_type_reset">Reset</button>
                 <button class="button button_type_start">Start</button>
+            </div>
+        </section>
+
+        <section class="popup popup_hidden" data-component="win-popup">
+            <div class="popup__content">
+                <h2 class="popup__title">You win! 🎉</h2>
+                <p class="popup__info">Your time: <span class="popup__time">0:00</span>
+                </p>
+                <button class="button button_type_start">OK</button>
+            </div>
+        </section>
+
+        <section class="popup popup_hidden" data-component="user-popup">
+            <div class="popup__content">
+                <form action="#" class="popup__form">
+                    <div class="popup__input-wrapper">
+                        <label for="name-input" class="popup__input-label">Fill in your name</label>
+                        <input id="name-input" type="text" class="popup__input" placeholder="Player">
+                        <div class="popup__error"></div>
+                    </div>
+                    <div class="popup__controls">
+                        <button class="button button_type_start" type="submit">OK</button>
+                        <button class="button button_type_reset" type="reset">Cancel</button>
+                    </div>
+                </form>
             </div>
         </section>
 
