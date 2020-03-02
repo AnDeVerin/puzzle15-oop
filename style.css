@@ -55,6 +55,22 @@
   cursor: pointer;
 }
 
+.statistics__name {
+  cursor: pointer;
+  position: relative;
+}
+
+.statistics__name:hover:after {
+  content: 'Click to edit';
+  color: var(--border);
+  position: absolute;
+  right: 10px;
+}
+
+.statistics__name:hover {
+  outline: solid 1px var(--border);
+}
+
 /* game */
 
 .game {

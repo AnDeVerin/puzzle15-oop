@@ -30,6 +30,8 @@ function cellClickHandler(e) {
     }
 
     stopGame();
+    timer.stop();
+    winPopup.open();
 }
 
 function stopGame() {

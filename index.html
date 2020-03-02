@@ -26,7 +26,7 @@
                 </ol>
 
             </details>
-            <p class="statistics__name">Name: Player</p>
+            <p class="statistics__name">Name:</p>
             <p class="statistics__timer">Time: 0:00</p>
         </section>
 
@@ -54,7 +54,7 @@
                 <form action="#" class="popup__form">
                     <div class="popup__input-wrapper">
                         <label for="name-input" class="popup__input-label">Fill in your name</label>
-                        <input id="name-input" type="text" class="popup__input" placeholder="Player">
+                        <input id="name-input" type="text" class="popup__input" placeholder="Your name" required minlength="3">
                         <div class="popup__error"></div>
                     </div>
                     <div class="popup__controls">
@@ -71,6 +71,11 @@
             </div>
         </template>
 
+        <script src="./Popup.js"></script>
+        <script src="./UserPopup.js"></script>
+        <script src="./WinPopup.js"></script>
+        <script src="./UserInfo.js"></script>
+        <script src="./Timer.js"></script>
         <script src="./gameFunctions.js"></script>
         <script src="./index.js"></script>
     </main>
